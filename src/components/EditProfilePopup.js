@@ -31,6 +31,7 @@ function EditProfilePopup(props) {
         name="name" 
         className="popup__input popup__input_type_display-name" 
         onChange={handleNameInput} 
+        value={name || ''}
         id="profile-display-name-input" 
         required 
         minLength="2" 
@@ -40,6 +41,7 @@ function EditProfilePopup(props) {
         name="about" 
         className="popup__input popup__input_type_profession" 
         onChange={handleDescriptionInput} 
+        value={description || ''}
         id="profile-profession-input" 
         required 
         minLength="2" 

@@ -23,6 +23,7 @@ function AddPlacePopup(props) {
       name="name" 
       className="popup__input popup__input_type_place-name" 
       onChange={handleNameInput}
+      value={name}
       id="place-name-input" 
       placeholder="Название" 
       required 
@@ -34,6 +35,7 @@ function AddPlacePopup(props) {
       name="link" 
       className="popup__input popup__input_type_place-link" 
       onChange={handleLinkInput}
+      value={link}
       id="place-link-input" 
       placeholder="Ссылка на картинку" 
       required 
