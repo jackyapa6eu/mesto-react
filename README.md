@@ -9,9 +9,6 @@
 - Flexbox
 - Grid
 - Условная отрисовка элемента с использованием switch case
-- Плавное появление/исчезновение элементов с использованием css + js
-- Задержка исполнения функции с помощью setTimeout
-- HTML5-атрибуты
 - Использованы ES6-классы
 - Наследование классов
 - Переопределение свойств/методов родительского класса
@@ -19,11 +16,17 @@
 - Асинхронные операции
 - Использование Api
 
-## Сборка
-`git clone https://github.com/jackyapa6eu/mesto-react.git`  
-`cd mesto-react`  
-`npm install`      
-`npm start`  
+## Установка проекта
+```
+git clone https://github.com/jackyapa6eu/mesto-react.git
+cd mesto-react  
+npm install       
+```
+
+## Запуск проекта
+```
+npm start
+```
 
 ## Статус проекта: завершен
 
