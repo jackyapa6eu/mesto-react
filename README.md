@@ -23,12 +23,17 @@ cd mesto-react
 npm install       
 ```
 
-## Запуск проекта
+## Запуск
 ```
 npm start
 ```
 
-## Статус проекта: завершен
+## Сборка
+```
+npm run build
+```
+
+## Статус проекта: `завершен`
 
 ## [Ссылка на проект на Github Pages](https://jackyapa6eu.github.io/mesto-react/index.html)
 
